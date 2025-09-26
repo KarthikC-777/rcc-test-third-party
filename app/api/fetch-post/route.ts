@@ -5,7 +5,6 @@ import { NextRequest, NextResponse } from "next/server";
 // List of explicitly allowed origins
 const allowedOrigins = new Set([
   "http://localhost:3000",
-  "http://localhost:3333",
   "https://realclearcrime.sanity.studio",
   "https://www.sanity.io",
 ]);
